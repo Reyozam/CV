@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Julien Mazoyer
+    name: "Julien Mazoyer"
     tagline: "Ingénieur Système &amp; Cloud"
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -15,7 +15,7 @@ sidebar:
     email: hello@webjeda.com
     phone: #012 345 6789
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    linkedin: "julien-mazoyer-40464b11b"
     github: reyozam
     gitlab:
     bitbucket:
