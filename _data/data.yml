@@ -3,156 +3,219 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: "Julien Mazoyer"
-    tagline: "Ingénieur Système & Cloud"
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: "Julien Mazoyer"
+  tagline: "Ingénieur Système & Cloud"
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: #hello@webjeda.com
-    phone: #012 345 6789
-    website: #blog.webjeda.com #do not add http://
-    linkedin: "julien-mazoyer-40464b11b"
-    github: "Reyozam"
-    gitlab:
-    bitbucket:
-    twitter: #'@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: #hello@webjeda.com
+  phone: #012 345 6789
+  website: #blog.webjeda.com #do not add http://
+  linkedin: "julien-mazoyer-40464b11b"
+  github: "Reyozam"
+  gitlab:
+  bitbucket:
+  twitter: #'@webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: Francais
-        level: Natale
+  languages:
+    - idiom: Francais
+      level: Natale
 
-      - idiom: English
-        level: Professionel
+    - idiom: English
+      level: Professionel
 
-    interests:
-      - item: Climbing
-        link:
+  interests:
+    - item: Tir à l'Arc
+      link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    - item: Astronomie
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
 education:
-    - degree: BAC Economique et Social
-      university: Lycée Descartes - Antony
-      time: 2004
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BTS Informatique 
-      university: Lycée Vilgénis - Massy
-      time: 2006
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - degree: BAC Economique et Social
+    university: Lycée Descartes - Antony
+    time: 2004
+    details:
+
+  - degree: BTS Informatique
+    university: Lycée Vilgénis - Massy
+    time: 2006
+    details:
+
+  - degree: Certification MS 70-410 Windows Server 2012
+    university: Microsoft
+    time: 2014
+    details:
+
+  - degree: LPIC 101
+    university: Linux Professional Institute
+    time: 2017
+    details:
+  
+  - degree: Certification Azure AZ-103
+    university: Microsoft
+    time: 2020
+    details:
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - role: Ingénieur Système
+    time: 07/2019 - Present 
+    company: Engie
+    details: |
+        - Referent Active Directory
+        - Maintient en condition opérationnelle de l'infrastructure
+
+  - role: Ingénieur Système
+    time: 04/2016 - 07/2019
+    company: La Poste
+    details: |
+      Projet : Migration et convergence Active Directory
+
+        - Ingénierie Active Directory, GPO, SCCM, File Server
+        - Convergence des Active Directory du groupe et des ressources.
+        - Scripting, développement d’outils et automatisation
+        - Run avec les équipes d’ingénierie de la poste : Maintenance, mise en production, suivi d’incidents, monitoring
+        - Mise en place de l’infrastructure Windows Server pour le nouveau datacenter du groupe
+        - Migration vers Office 365
+        - Rédaction de documentation technique
+
+  - role: Ingénieur Système
+    time: 03/2016 - 06/2016
+    company: BNP Real Estate
+    details: |
+      Projet : Réalisation de scripts Powershell d’automatisation de VMWare ESX
+
+        - Rédaction d’un script de provisioning de VM
+        - Rédaction d’un script d’inventaire détaillé des VMs hébergées
+        - Rédaction d’un script d’arrêt relance de VMs
+        - Ordonnancement des scripts via Orchestrator
+        -	Rédaction de documentation technique
+
+  - role: Expert SCCM
+    time: 11/2015 - 12/2015
+    company: Eramet
+    details: |
+      Projet : Réalisation de scripts Powershell d’automatisation de VMWare ESX
+
+        - Mise en place d’un plan de remédiation Microsoft de l’infrastructure SCCM
+        - Support Niveau 3 sur la plateforme SCCM
+        - Rédaction de documentation technique
+
+  - role: Ingénieur Système
+    time: 10/2015
+    company: Banque Populaire
+    details: |
+      Projet : Mise en place d’une infrastructure App-V résiliente
+
+        - Conception de l’architecture technique
+        - Configuration des serveurs App-V
+        - Mise en production de l’architecture
+        - Rédaction de documentation technique
+
+  - role: Ingénieur Système
+    time: 07/2015 - 08/2015
+    company: Edition Francis Lefèbvre
+    details: |
+      Projet : Implémentation d'une infrastructure SCCM
+
+        - Configuration du serveur primaire SCCM 2012 et des 10 serveurs « Distribution Point » 
+        - Mise en place du « User & Device Affinity »
+        - Création de requêtes pour inventorier les logiciels et les configurations matérielles
+        - Création de collections dynamiques
+        - Analyse du besoin et rédaction de documentation pour accompagner le client dans le déploiement des features.
+        - Création de script PowerShell pour automatiser l'administration.
+  
+  - role: Ingénieur Poste de Travail
+    time: 01/2015 - 06/2015
+    company: MGEN Technologies
+    details: |
+        - Participation aux projets de migration Windows XP vers Windows 7
+        - Création, maintenance et évolution du master et des différents profils de poste
+        - Création, maintenance et évolution des séquences de tâches OSD
+        - Administration des déploiements SCCM 2012
+        - Packaging MSI via InstallShield
+
+  - role: Ingénieur Système
+    time: 01/2015 - 06/2015
+    company: GDF Suez - Ecometering
+    details: |
+      Consultant système en charge de la définition et de l’implémentation des projets Microsoft
+
+        - Participation aux projets techniques transverses de la réflexion à l’implémentation de solutions (build, patch, upgrade...)
+        - Migration du domaine Active Directory
+        - Installation, configuration et maintenance des rôles et fonctionnalités
+          - Active Directory
+          - DHCP & DNS
+          - DFS
+          - NAS
+          - WSUS
+          - Synchronisation Active Directory / O365
+          - Radius
+          - Windows Backup
+        - Mise en place de la solution Kaspersky Security Center
+        - Conception de nombreux scripts PowerShell permettant l’automatisation et le reporting des environnements Windows
+        - Refonte du serveur de fichiers, des partages et de la sécurité des données
+        - Support dernier niveau sur les produits Microsoft
+        - Production et maintien à jour de documentation technique          
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Powershell
-        level: 98%
+  toolset:
+    - name: Powershell
+      level: 98%
 
-      - name: Active Directory
-        level: 95%
+    - name: Active Directory
+      level: 95%
 
-      - name: Windows Server 
-        level: 95%
+    - name: Windows Server
+      level: 95%
 
-      - name: Windows 
-        level: 95%
+    - name: Windows
+      level: 95%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
